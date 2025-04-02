@@ -15,6 +15,7 @@ export default function Board() {
     const nextSquares = squares.slice();
     nextSquares[i] = "X";
     setSquares(nextSquares);
+    
   }
   
   return (
